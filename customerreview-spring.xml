@@ -47,7 +47,7 @@
 		<property name="curseDao" ref="curseDao"/>
 	</bean>
 	<alias alias="curseDao" name="defaultCurseDao"/>
-	<!— DefaultCurseDao is not implemented, I think it is not relevant for motive of exercise, it should be implementation that would fetch list of curse word from a data store —>
+	<!—- DefaultCurseDao is not implemented, I think it is not relevant for motive of exercise, it should be implementation that would fetch list of curse word from a data store -—>
 	<bean id="defaultCurseDao" class="de.hybris.platform.customerreview.dao.impl.DefaultCurseDao" parent="abstractItemDao" scope="tenant"/>
 
 </beans>
